@@ -1,0 +1,170 @@
+/* # RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* # Header */
+
+/* # Barra superiore */
+
+.header-bar {
+  background-color: #ff4c00;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-color {
+  color: white;
+}
+
+.header-bar #logo {
+  width: 150px;
+}
+
+/* # MAIN */
+
+/* # CARDS */
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-card .card-item {
+  position: relative;
+  width: 300px;
+  margin-top: 60px;
+  margin-right: 25px;
+}
+
+.card-item .wishlist {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 10px;
+}
+
+.card-item .heart:hover {
+  color: red;
+}
+
+.heart {
+  font-size: 30px;
+}
+
+.card-item .wishlist {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.card-item .main-image {
+  width: 300px;
+}
+
+.card-item:hover .main-image {
+  display: none;
+}
+
+.card-item:hover .cover-image {
+  display: block;
+}
+
+.card-item .cover-image {
+  display: none;
+}
+
+.main-image,
+.cover-image {
+  width: 300px;
+}
+
+.card-item .tags {
+  position: absolute;
+  bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tags .D-50 {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  margin-right: 5px;
+}
+
+.D-30 {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  margin-right: 5px;
+}
+
+.tags .eco {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+}
+
+.brand,
+.item {
+  display: block;
+}
+
+.new-price {
+  color: red;
+}
+
+/* # Footer */
+
+footer {
+  background-color: black;
+  height: 100px;
+  margin-top: 30px;
+}
+
+footer .footer-content {
+  position: relative;
+}
+
+.item-detail {
+  color: white;
+}
+
+.left {
+  top: 20px;
+  position: absolute;
+}
+
+.info {
+  position: absolute;
+  top: 60px;
+}
+
+.right {
+  top: 20px;
+  right: 0;
+  position: absolute;
+}
+
+.social {
+  top: 60px;
+  right: 0;
+  position: absolute;
+}
